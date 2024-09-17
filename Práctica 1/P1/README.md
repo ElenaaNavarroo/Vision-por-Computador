@@ -9,8 +9,8 @@ En esta práctica hemos explorado diversos conceptos relacionados con el procesa
 4. [Modificación de Canales de Imagen](#4-modificación-de-canales-de-imagen)
 5. [Círculos en Píxeles Claros y Oscuros](#5-círculos-en-píxeles-claros-y-oscuros)
 6. [Efecto Pop Art](#6-efecto-pop-art)
-7. [Conclusión](#conclusión)
-8. [Referencias](#referencias)
+7. [Conclusión](#7-conclusion)
+8. [Referencias](#8-referencias)
 
 ### 1. Tablero de Ajedrez
 En este ejercicio se generó una imagen en blanco y negro que simula un tablero de ajedrez. Para lograr esto, se creó una matriz de 8x8 casillas, donde las casillas alternan entre los colores blanco y negro. El tamaño de cada casilla se ajustó de forma que ocupara 100x100 píxeles, dando como resultado una imagen de 800x800 píxeles en total.
