@@ -117,7 +117,7 @@ Este tipo de procesamiento de video en tiempo real es útil en escenarios donde 
 
 Este proyecto utiliza la cámara web para capturar video en tiempo real y aplicar diferentes efectos visuales a una imagen dividida en un collage de 9 cuadrantes. Cada cuadrante presenta un efecto único sobre el fotograma capturado, brindando una experiencia visual de estilo "Pop Art". El collage resultante se muestra en tiempo real.
 
-## Descripción del proceso:
+#### Descripción del proceso:
 
 1. **Captura de video**:
    El programa comienza capturando video desde la cámara web utilizando OpenCV (`cv2.VideoCapture`). Las dimensiones del video se reducen a un tercio de su tamaño original para facilitar el procesamiento y visualización.
@@ -140,11 +140,11 @@ Este proyecto utiliza la cámara web para capturar video en tiempo real y aplica
 4. **Visualización en tiempo real**:
    Los fotogramas modificados con estos efectos se combinan en el collage de 3x3 y se muestran en una ventana. El programa continúa procesando los fotogramas hasta que el usuario presiona la tecla `ESC` para finalizar la ejecución.
 
-## Aplicaciones:
+#### Aplicaciones:
 
 Este proyecto puede ser útil en aplicaciones de videoarte, filtros para fotografías, procesamiento de imágenes en tiempo real, entretenimiento interactivo o para aprender y experimentar con diferentes técnicas de manipulación de imágenes en OpenCV. 
 
-## 7. Conclusión
+### 7. Conclusión
 
 Esta primera práctica ha sido una forma muy divertida y práctica de aprender sobre el procesamiento de imágenes en tiempo real con OpenCV. Al dividir el video en 9 cuadrantes y aplicar diferentes efectos, nosotros pudimos ver cómo pequeños cambios en los canales de color o en la forma en que se procesa cada imagen pueden generar resultados visualmente interesantes y completamente distintos.
 
