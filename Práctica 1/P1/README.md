@@ -115,7 +115,7 @@ Este tipo de procesamiento de video en tiempo real es útil en escenarios donde 
 
 ### 6. Efecto Pop Art
 
-Este proyecto utiliza la cámara web para capturar video en tiempo real y aplicar diferentes efectos visuales a una imagen dividida en un collage de 9 cuadrantes. Cada cuadrante presenta un efecto único sobre el fotograma capturado, brindando una experiencia visual de estilo "Pop Art". El collage resultante se muestra en tiempo real.
+Este apartado utiliza la cámara web para capturar video en tiempo real y aplicar diferentes efectos visuales a una imagen dividida en un collage de 9 cuadrantes. Cada cuadrante presenta un efecto único sobre el fotograma capturado, brindando una experiencia visual de estilo "Pop Art". El collage resultante se muestra en tiempo real.
 
 #### Descripción del proceso:
 
@@ -142,7 +142,7 @@ Este proyecto utiliza la cámara web para capturar video en tiempo real y aplica
 
 #### Aplicaciones:
 
-Este proyecto puede ser útil en aplicaciones de videoarte, filtros para fotografías, procesamiento de imágenes en tiempo real, entretenimiento interactivo o para aprender y experimentar con diferentes técnicas de manipulación de imágenes en OpenCV. 
+Este apartado puede ser útil en aplicaciones de videoarte, filtros para fotografías, procesamiento de imágenes en tiempo real, entretenimiento interactivo o para aprender y experimentar con diferentes técnicas de manipulación de imágenes en OpenCV. 
 
 ### 7. Conclusión
 
