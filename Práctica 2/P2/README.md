@@ -22,7 +22,7 @@ En esta práctica hemos explorado diversos conceptos relacionados con el procesa
 - Experimentar de forma creativa.
 
 ## Contenidos
-1. [Cuenta de píxeles blancos por filas](#1-cuenta-de-pixeles-blancos-por-filas)
+1. [Cuenta de píxeles blancos por filas](#1-cuenta-de-píxeles-blancos-por-filas)
 2. [Imagen de Sobel en 8 bits](#2-imagen-de-sobel-en-8-bits)
 3. [Demostrador Interactivo de Procesamiento de Imágenes](#3-demostrador-interactivo-de-procesamiento-de-imágenes)
 4. [Reinterpretación del Procesamiento de Imágenes](#4-reinterpretación-del-procesamiento-de-imágenes)
