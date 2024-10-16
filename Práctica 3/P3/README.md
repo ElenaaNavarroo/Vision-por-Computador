@@ -57,7 +57,7 @@ Resultados numéricos:
 
 ![alt text](image-7.png)
 
-Hay que tener en cuenta que el código podría no funcionar con otras imágenes debido a la escala de las mismas. Con lo cual, lo mejor sería 
+Hay que tener en cuenta que el código podría no funcionar con otras imágenes debido a la escala de las mismas. Con lo cual, lo mejor sería probar este clasificador de monedas con una imagen de la misma escala que la primera.
 
 ### 2. Microplásticos
 
