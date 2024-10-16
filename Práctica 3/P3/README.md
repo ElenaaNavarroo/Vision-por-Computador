@@ -37,7 +37,7 @@ Luego, se convierte la imagen a escala de grises y aplica un suavizado.
 
 Con la función `HoughCircles`, se detectan los círculos que representan las monedas. 
 
-Se desplega una ventana emergente y se puede hacer clic en la imagen para seleccionar una moneda de referencia, lo que permite identificar y clasificar las demás monedas en función del radio de esa moneda seleccionada. 
+Se desplega una ventana emergente y se puede hacer clic en la imagen para seleccionar una moneda de referencia, lo que permite identificar y clasificar las demás monedas en función del radio de esa moneda seleccionada aunque la referencia principal es la de 1 euro. 
 
 ![alt text](image.png)
 
@@ -58,6 +58,24 @@ Resultados numéricos:
 ![alt text](image-7.png)
 
 Hay que tener en cuenta que el código podría no funcionar con otras imágenes debido a la escala de las mismas. Con lo cual, lo mejor sería probar este clasificador de monedas con una imagen de la misma escala que la primera.
+
+Se ha elaborado otro código para la tarea que detecta mucho mejor las monedas proporcionadas por el profesor, este código define valores de referencia para diámetros y valores monetarios de diferentes monedas, el código permite seleccionar manualmente una moneda aunque la referencia está establecida a 1 euro.
+
+Se carga la imagen, se convierte a escala de grises, y se realiza un umbralizado binario invertido para resaltar las monedas y detectar los contornos.
+
+Se utiliza `cv2.findContours` para identificar los contornos de las monedas en la imagen umbralizada.
+
+Para cada contorno detectado, se calcula el radio del círculo mínimo que lo contiene y se estima el tamaño de cada moneda detectada en función de la referencia seleccionada, comparándolo con los valores de referencia `coin_diameter`. Por otro lado, se determina el valor monetario de cada moneda utilizando `coin_calc` y se suma al valor total de las monedas detectadas.
+
+Por último, se muestra las imágenes con los contornos detectados y la máscara de las monedas resaltadas.
+
+![alt text](image-9.png)
+
+Y se imprime el valor calculado de las monedas detectadas.
+
+![alt text](image-10.png)
+
+Este código tambien tiene el problema de que puede no funcionar correctamente si la imagen de entrada tiene una escala muy diferente a la de la referencia establecida, por lo que se recomienda usar imágenes con escalas similares.
 
 ### 2. Microplásticos
 
