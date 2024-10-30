@@ -23,7 +23,7 @@ Este proyecto explora el uso de modelos avanzados de detección de objetos y rec
 
 ## Contenidos
 1. [Entrenamiento](#1-entrenamiento)
-2. [Detector de matrículas](#2-detector-de-matriculas)
+2. [Detector de matrículas](#2-detector-de-matrículas)
 3. [Conclusión](#3-conclusión)
 
 ### 1. Entrenamiento
@@ -48,6 +48,8 @@ Se ha entrenado un conjunto de dataset de cosecha propia se tres formas:
 ![alt text](<Captura de pantalla 2024-10-29 143833.png>)
 
 Se determinó que el mejor entrenamiento era el de la segunda forma con 100 épocas al comprobar que hacía mejores detecciones.
+
+Para obtener el conjunto del dataset utilizado se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:u:/g/personal/maria_navarro140_alu_ulpgc_es/Ed92mJOFrj1Mq2bi1qI6WPEBUDdZMwWxvT6d7gIdrwUyWA?e=LpFGQe
 
 Por otra parte, para separar los conjuntos de datos de forma aleatoria en `train`, `valid` y `test`, se hizo uso de un script que se ha ajuntado de la práctica llamado `main.py` que depende de algunas funciones de `dir_functions.py`.
 
@@ -87,6 +89,8 @@ La estructura del código es la siguiente:
 
 ![alt text](image.png)
 
+Para obtener un vídeo de la detección de matrículas se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/maria_navarro140_alu_ulpgc_es/Efq_U0BwbZJDu7Mc2sdkHYYB5QIi6_CEZHFuCl8IGKXfQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rzimmW 
+
 #### Descripción del Archivo CSV
 Las detecciones se guardan en el archivo detecciones.csv con los siguientes campos:
 
@@ -105,9 +109,3 @@ Las detecciones se guardan en el archivo detecciones.csv con los siguientes camp
 La práctica ha sido una muy constructiva pero también costosa en el uso de modelos avanzados de visión por computador, donde tanto mi compañero como yo, hemos colaborado para la detección de las matrículas de los vehículos y OCR de manera efectiva. La implementación y el análisis de diferentes modelos de entrenamiento ha permitido seleccionar el modelo más adecuado, optimizando la precisión en la detección de matrículas.
 
 Este proyecto no solo demuestra la capacidad de integrar detección y reconocimiento de texto en un sistema, sino que también abre oportunidades para aplicaciones en contextos reales. Puede utilizarse, por ejemplo, en sistemas de control de acceso en parkings, supervisión de tráfico en carreteras o incluso en sistemas de vigilancia urbana. La estructura modular y el almacenamiento detallado en un archivo CSV facilitan el uso y análisis de datos para futuras mejoras en la precisión del modelo y su adaptación a distintos escenarios.
-
-
-
-
-
-
