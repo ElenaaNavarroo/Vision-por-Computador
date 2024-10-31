@@ -90,6 +90,8 @@ La estructura del código es la siguiente:
 
 Para obtener un vídeo de la detección de matrículas se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/maria_navarro140_alu_ulpgc_es/Efq_U0BwbZJDu7Mc2sdkHYYB5QIi6_CEZHFuCl8IGKXfQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rzimmW 
 
+Para obtener un vídeo de la detección de matrículas del video de ejemplo proporcionado por el profesor se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/maria_navarro140_alu_ulpgc_es/ETUZKx-5QNRJkvhPDg7BrkIBxuec9cWd5xPXracL1pMOPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=czFlrT
+
 #### Descripción del Archivo CSV
 Las detecciones se guardan en el archivo detecciones.csv con los siguientes campos:
 
