@@ -48,6 +48,34 @@ Se ha entrenado un conjunto de dataset de cosecha propia se tres formas:
 
 Se determinó que el mejor entrenamiento era el de la segunda forma con 100 épocas al comprobar que hacía mejores detecciones.
 
+Todo esto se puede comprobar con las siguientes gráficas:
+
+![alt text](results.png)
+
+Estas gráficas son resultados comunes en el entrenamiento de un modelo de detección de objetos que muestran cómo evolucionan las métricas de pérdida y precisión a lo largo de las épocas de entrenamiento.
+
+train/box_loss: Mide qué tan bien el modelo ajusta las cajas de predicción a los objetos en las imágenes de entrenamiento. Su disminución indica que el modelo está mejorando en la localización de los objetos.
+
+train/cls_loss: Mide la capacidad del modelo para asignar correctamente etiquetas de clase a los objetos detectados. Una disminución en esta pérdida significa que el modelo está mejorando en la identificación de las clases de los objetos.
+
+train/dfl_loss: Se usa para mejorar la precisión en la predicción de las cajas, especialmente en bordes difusos, ayudando al modelo a refinar las predicciones. Su descenso indica mejoras en la precisión de las cajas predichas.
+
+metrics/precision(B): Mide la proporción de verdaderos positivos frente a las predicciones positivas totales. Un valor alto indica que el modelo tiene una baja tasa de falsos positivos.
+
+metrics/recall(B): Mide la capacidad del modelo para detectar correctamente los objetos presentes en las imágenes, es decir, la proporción de verdaderos positivos frente a la cantidad total de objetos reales. Su incremento indica que el modelo mejora en la detección de objetos.
+
+val/box_loss: Similar a la pérdida de caja en entrenamiento, pero se calcula en el conjunto de validación para evaluar el rendimiento del modelo en datos no vistos.
+
+val/cls_loss: Mide qué tan bien el modelo clasifica las clases en el conjunto de validación. Su disminución es una señal de que el modelo está generalizando bien a datos nuevos.
+
+val/dfl_loss: Al igual que en entrenamiento, mide la precisión de las cajas en datos de validación.
+
+metrics/mAP50(B): Es una métrica de rendimiento que mide la precisión del modelo en detectar y clasificar correctamente objetos en imágenes, considerando que la superposición (IoU) entre predicción y verdad debe ser al menos 50%. Un valor alto indica buen rendimiento.
+
+metrics/mAP50-95(B): Este es un promedio más estricto, ya que considera diferentes niveles de superposición entre predicciones y verdades. Es una métrica completa para evaluar la precisión general del modelo. Una predicción del 95% significaría que el modelo es super bueno.
+
+Estas gráficas muestran que, a medida que avanza el entrenamiento (épocas), las pérdidas tienden a disminuir y las métricas de precisión y recall tienden a estabilizarse o incrementarse, lo cual indica una mejora en el rendimiento del modelo.
+
 Para obtener el conjunto del dataset utilizado se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:u:/g/personal/maria_navarro140_alu_ulpgc_es/Ed92mJOFrj1Mq2bi1qI6WPEBUDdZMwWxvT6d7gIdrwUyWA?e=LpFGQe
 
 Por otra parte, para separar los conjuntos de datos de forma aleatoria en `train`, `valid` y `test`, se hizo uso de un script que se ha adjuntado en la práctica llamado `main.py` que depende de algunas funciones de `dir_functions.py`.
