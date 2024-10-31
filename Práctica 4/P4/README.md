@@ -10,7 +10,6 @@ Este proyecto explora el uso de modelos avanzados de detección de objetos y rec
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
 ## Librerías
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)  
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)  
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-FF5C00?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABmJLR0QA/wD/AP+gvaeTAAAAJ0lEQVQ4jWNgGAUjGLQAS/6HOMzAEEBQYHwWiwjGggWMDYFGAYAAE1xBppUvgwbAAAAAElFTkSuQmCC&logoColor=white)  
 ![EasyOCR](https://img.shields.io/badge/EasyOCR-FFCA28?style=flat&logo=python&logoColor=white)  
@@ -51,7 +50,7 @@ Se determinó que el mejor entrenamiento era el de la segunda forma con 100 épo
 
 Para obtener el conjunto del dataset utilizado se puede ir a este enlace: https://alumnosulpgc-my.sharepoint.com/:u:/g/personal/maria_navarro140_alu_ulpgc_es/Ed92mJOFrj1Mq2bi1qI6WPEBUDdZMwWxvT6d7gIdrwUyWA?e=LpFGQe
 
-Por otra parte, para separar los conjuntos de datos de forma aleatoria en `train`, `valid` y `test`, se hizo uso de un script que se ha ajuntado de la práctica llamado `main.py` que depende de algunas funciones de `dir_functions.py`.
+Por otra parte, para separar los conjuntos de datos de forma aleatoria en `train`, `valid` y `test`, se hizo uso de un script que se ha adjuntado en la práctica llamado `main.py` que depende de algunas funciones de `dir_functions.py`.
 
 #### main.py
 
@@ -106,6 +105,6 @@ Las detecciones se guardan en el archivo detecciones.csv con los siguientes camp
 
 ### 3. Conclusión
 
-La práctica ha sido una muy constructiva pero también costosa en el uso de modelos avanzados de visión por computador, donde tanto mi compañero como yo, hemos colaborado para la detección de las matrículas de los vehículos y OCR de manera efectiva. La implementación y el análisis de diferentes modelos de entrenamiento ha permitido seleccionar el modelo más adecuado, optimizando la precisión en la detección de matrículas.
+La práctica ha sido muy constructiva pero también costosa en el uso de modelos avanzados de visión por computador, donde tanto mi compañero como yo, hemos colaborado para la detección de las matrículas de los vehículos y OCR de manera efectiva. La implementación y el análisis de diferentes modelos de entrenamiento ha permitido seleccionar el modelo más adecuado, optimizando la precisión en la detección de matrículas.
 
 Este proyecto no solo demuestra la capacidad de integrar detección y reconocimiento de texto en un sistema, sino que también abre oportunidades para aplicaciones en contextos reales. Puede utilizarse, por ejemplo, en sistemas de control de acceso en parkings, supervisión de tráfico en carreteras o incluso en sistemas de vigilancia urbana. La estructura modular y el almacenamiento detallado en un archivo CSV facilitan el uso y análisis de datos para futuras mejoras en la precisión del modelo y su adaptación a distintos escenarios.
