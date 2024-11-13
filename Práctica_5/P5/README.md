@@ -49,8 +49,8 @@ Filtro al apretar '1':
 Esta práctica nos ha permitido a mi compañero y a mi, aplicar conceptos de visión por computador y procesamiento de imágenes para crear un filtro visual que altera la apariencia del usuario en tiempo real, utilizando técnicas avanzadas como detección de rostros y puntos faciales.
 
 ### 4. Bibliografía
-[Máscara de Mediapipe](https://omes-va.com/malla-facial-mediapipe-python/)
-[Puntos en Mediapipe](https://github.com/k-m-irfan/simplified_mediapipe_face_landmarks)
+- [Máscara de Mediapipe](https://omes-va.com/malla-facial-mediapipe-python/)
+- [Puntos en Mediapipe](https://github.com/k-m-irfan/simplified_mediapipe_face_landmarks)
 
 
 
