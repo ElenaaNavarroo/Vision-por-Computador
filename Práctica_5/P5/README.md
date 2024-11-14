@@ -26,6 +26,10 @@ Este script captura video en tiempo real desde la cámara web, detecta la malla 
 
 ![alt text](image.png)
 
+Gift:
+
+![alt text](<Frame 2024-11-14 15-20-12.gif>)
+
 ### 2. Filtros
 
 El proyecto permite aplicar texturas y superposiciones personalizadas a diferentes zonas del rostro. Al presionar la tecla '1', se activa un filtro que superpone una textura específica en los labios y un estilo de cabello en la cabeza. Con dos opciones de filtro, el usuario puede alternar entre texturas de labios en color negro o rojo, y entre estilos de cabello.
@@ -43,6 +47,10 @@ Filtro por defecto:
 Filtro al apretar '1':
 
 ![alt text](image-2.png)
+
+Gift:
+
+![alt text](<Lipstick and Hair Overlay Filter 2024-11-14 15-21-14.gif>)
 
 ### 3. Conclusión
 
