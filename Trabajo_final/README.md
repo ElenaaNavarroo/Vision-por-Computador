@@ -61,3 +61,4 @@ El proyecto se llevó a cabo en las siguientes etapas:
 ## Conclusiones
 El modelo YOLO mostró un desempeño superior en todos los datasets estudiados, mientras que RetinaNet enfrentó desafíos técnicos que limitaron su efectividad. Sin embargo, el trabajo sienta las bases para ampliar el análisis, unificar datasets y explorar nuevos algoritmos.
 
+Se adjunta una memoria para este trabajo que explica detalladamente todo el procedimiento seguido en este trabajo.
