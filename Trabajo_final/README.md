@@ -59,6 +59,7 @@ El proyecto se llevó a cabo en las siguientes etapas:
   - [Dataset 3](https://universe.roboflow.com/bonez/wrist-junk)
   - [Modelos de YOLO](https://alumnosulpgc-my.sharepoint.com/:f:/g/personal/maria_navarro140_alu_ulpgc_es/Et-0oUO8L8tMnbXTQ9hOaRkBBDrLXVCkblaQuUEH_uAHbA?e=EDVf4s)
   - [Modelos de RetinaNet](https://alumnosulpgc-my.sharepoint.com/:f:/g/personal/maria_navarro140_alu_ulpgc_es/EqbowTMZNBBLimhntzUVyX0BsoSfcIcSMtfhuMTMyNuqKQ?e=t2qW28)
+  - [Vídeo](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/maria_navarro140_alu_ulpgc_es/EY3AnMB48-xKneVAirm55LUBUhx-MrnZGFQMdpEtMYDnHA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o02J0m)
 
 ## Conclusiones
 El modelo YOLO mostró un desempeño superior en todos los datasets estudiados, mientras que RetinaNet enfrentó desafíos técnicos que limitaron su efectividad. Sin embargo, el trabajo sienta las bases para ampliar el análisis, unificar datasets y explorar nuevos algoritmos.
